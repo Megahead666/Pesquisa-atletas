@@ -164,3 +164,22 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
+.nico{
+    text-decoration: blue;
+    color: #11131f;
+    text-align: center;
+}
+.blink{
+
+    animation: go-back 1s infinite alternate;
+}
+
+
+
+@keyframes go-back {
+    from {
+        transform: translatey(10px);
+      }
+      to {
+        transform: translatey(0);
+}}
